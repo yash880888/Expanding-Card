@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+}
+
+/* .one.active {
+  width: 3000px;
+}
+
+.two.active {
+  width: 3000px;
+}
+
+.three.active {
+  width: 3000px;
+}
+
+.four.active {
+  width: 3000px;
+} 
+
+.five.active {
+  width: 3000px;
+} */
+.one {
+  background-image: url(https://iso.500px.com/wp-content/uploads/2020/11/Mystic-Wood-By-Kilian-Sch%C3%B6nberger-2-1500x1000.jpg);
+}
+
+.two {
+  background-image: url(https://iso.500px.com/wp-content/uploads/2022/02/I%E2%80%98ve-got-roots%E2%80%A6.-By-Sabine-Weise-2-1500x1000.jpeg);
+}
+
+.three {
+  background-image: url(https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-137144955.jpg);
+}
+
+.four {
+  background-image: url(https://iso.500px.com/wp-content/uploads/2017/11/500px_blog_seeking_light_nature2.jpg);
+}
+.five {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/500px_photo_%2884715009%29.jpeg/960px-500px_photo_%2884715009%29.jpeg);
+}
+
+.img {
+  height: 500px;
+  width: 284px;
+  margin-top: 50px;
+  margin: 10px;
+  border-radius: 50px;
+  transition: all 1s ease;
+}
+
+.img.active {
+  width: 1500px;
+}
